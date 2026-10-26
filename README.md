@@ -49,18 +49,6 @@ npm run dev
 
 El servidor quedará disponible en: `http://localhost:3000`
 
----
-
-## Rutas del Sistema y Modos de Prueba
-
-| `http://localhost:3000/responsive` | **Versión A (RWD)** | Único HTML universal. En móvil oculta con CSS la tabla y radar, pero **transfiere el payload completo**. |
-| `http://localhost:3000/adaptive` | **Versión B (AWD)** | Autodetección mediante cabecera HTTP `User-Agent`. |
-| `http://localhost:3000/adaptive?view=mobile` | **AWD Móvil Forzado** | Permite evaluar la vista podada directamente en escritorio sin alterar User-Agent. |
-| `http://localhost:3000/adaptive?view=desktop` | **AWD Desktop Forzado** | Entrega la vista completa con radar y matriz de 96 especificaciones. |
-
-
-
-
 
 
 
